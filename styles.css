@@ -1,0 +1,118 @@
+@font-face{
+	font-family: ostrichSans;
+	src: url(ostrich-regular.ttf);
+}
+
+@font-face{
+	font-family: montserrat;
+	src: url(Montserrat-Light.otf);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-family: ostrichSans;
+	font-variant: small-caps;
+}
+
+header{
+	border: 0;
+	margin: 0;
+	padding: 0vmin 0vmin 1vmin 0vmin;
+	background-color: black;
+	text-align: left;
+	border-radius: 0vmin 0vmin 3vmin 3vmin;
+	position: fixed;
+	width: 100%;
+	opacity: 1;
+}
+
+h3{
+	display: inline;
+	color: rgb(204, 194, 255);
+	margin: 0;
+	padding-left: 2vmin;
+	font: 6vmin montserrat;
+}
+
+h2{
+	font-size: 12vmin;
+	padding: 0vmin 2vmin;
+	margin: 1vmin 0vmin;
+	color: rgb(83, 0, 83);
+	width: 100%;
+}
+
+h1{
+	font-size: 14vmin;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 2vmin 0vmin; 
+	margin: 18vmin 0vmin;
+	color: rgb(83, 0, 83);
+	width: 100%;
+}
+
+span, a{
+	color: rgb(77, 166, 255);
+}
+
+p{
+	font-size: 6vmin;
+	padding: 0vmin 16vmin;
+	margin: 2vmin 0vmin;
+}
+
+.flic{
+	display: block;
+	width: 100%;
+	min-height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+.flic h2{
+	font-size: 10vmin;
+	background-color: rgba(204, 194, 255, 0.7); 
+	margin: 18vmin 0vmin;
+}
+
+.selfie{
+	background-image: url(photos/taipei_selfie.jpg);
+}
+
+.food{
+	background-image: url(photos/vegan_ramen.jpg);
+}
+
+.shrine{
+	background-image: url(photos/shrine_gate.jpg);
+}
+
+.lake{
+	background-image: url(photos/park_lake.jpg);
+}
+
+.bridge{
+	background-image: url(photos/palace_bridge.jpg);
+}
+
+footer h4{
+	text-align: right;
+	font-size: 4vmin;
+	padding-right: 6vmin;
+	margin: 1vmin 0vmin; 
+}
